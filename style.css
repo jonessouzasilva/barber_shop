@@ -115,6 +115,7 @@ header{
 }
 .content .image img{
   max-width: 100%;
+  left: -300px;
 }
 .down {
   display: flex;
