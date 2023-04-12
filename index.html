@@ -1,95 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BARBER SHOP</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <section class="nav">
-        <div class="logo">
-          <img src="img/logo.png" alt="" />
-          <div class="logo-text">
-            <h1>BARBER</h1>
-            <h2>SHOP</h2>
-          </div>
-        </div>
-        <div class="items">
-          <ul>
-            <li id="active">HOME</li>
-            <li>SOBRE</li>
-            <li>SERVIÇOS</li>
-            <li>CONTATO</li>
-          </ul>
-        </div>
-      </section>
-      <section class="content">
-        <div class="left">
-          <div class="title">
-            <h1>
-                A MELHOR DA REGIÃO <br />
-              BARBER SHOP
-            </h1>
-            <p>
-                Confira nossas promoções cortes e barbas. <br />
-                perfeição da sua barba e cabelo <br />
-                só aqui.
-            </p>
-          </div>
-          <div class="btn">
-            <button>CONSULTE NOSSOS PREÇOS</button>
-          </div>
-        </div>
-        <div class="right">
-          <img src="img/perfil.png" alt="" />
-        </div>
-      </section>
-      <div class="down">
-        <div class="down-text">
-          <h1>
-            SERVIÇOS MAIS <br />
-            VENDIDOS
-          </h1>
-        </div>
-        <div class="line">
-          <hr />
-        </div>
-        <div class="box">
-          <div class="trimer">
-            <img src="img/maquina.jpg" alt="" />
-          </div>
-          <div class="tr-text">
-            <h1>CORTE ESTILOSO</h1>
-            <div class="star">
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <header>
+            <a href=""><img src="img/logo.png" class="logo"></a>
+            <div class="toggle"></div>
+            <ul class="nav">
+                <li><a href="https://faq.whatsapp.com/??????????/">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>BARBER <br><span class="style">SHOP</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas exercitationem et suscipit dignissimos <br>vel vitae ipsum at tempora asperiores recusandae, modi, illo accusantium blanditiis possimus doloribus. Maxime, deserunt.</p>
+                <a href="#" class="btn">Compre Agora</a>
+                <div class="social-media">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                </div>
             </div>
-            <h1>$69.00</h1>
-          </div>
-        </div>
-        <div class="box">
-          <div class="trimer">
-            <img src="img/cream.jpg" alt="" />
-          </div>
-          <div class="tr-text">
-            <h1>LIMPEZA FACIAL</h1>
-            <div class="star">
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
-              <img src="img/star.png" alt="" />
+            <div class="image">
+                <img src="">
             </div>
-            <h1>$30.00</h1>
-          </div>
         </div>
-      </div>
-    </div>
-  </body>
+    </section>
+    <script>
+        const menutoggle = document.querySelector('.toggle');
+        const nav = document.querySelector('.nav');
+        menutoggle.onclick = function(){
+            menutoggle.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
 </html>
