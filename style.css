@@ -159,6 +159,7 @@ header{
   }
   .content .image img{
       max-width: 500px;
+      left:-300px;
   }
   .content{
       flex-direction: column;
