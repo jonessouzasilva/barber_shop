@@ -7,7 +7,7 @@
 .main{
   position: relative;
   min-height: 100vh;
-  background: rgb(235, 230, 230);
+  background: rgb(210, 247, 247);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ header{
 }
 .nav li a{
   position: relative;
-  color: #00704a;
+  color: #202427;
   text-decoration: none;
   margin-left: 40px;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ header{
   max-width: 600px;
 }
 .content .text h2{
-  color: #00704a;
+  color: #202427;
   font-size: 5rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ header{
 .btn{
   position: relative;
   display: inline-block;
-  background-color: #00704a;
+  background-color: #202427;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
@@ -99,7 +99,7 @@ header{
   margin-left: 50px;
 }
 .fa{
-  color: #00704a;
+  color: #202427;
   padding: 10px;
 }
 .fa:hover{
@@ -116,6 +116,36 @@ header{
 .content .image img{
   max-width: 100%;
 }
+.down {
+  display: flex;
+  justify-content: space-around;
+  height: 25vh;
+  background-color: #202427;
+  align-items: center;
+  color: #fff;
+}
+.down-text h1 {
+  color: #fff;
+}
+.line hr {
+  height: 20vh;
+  background-color: #fff;
+}
+.box {
+  display: flex;
+}
+.trimer img {
+  width: 100px;
+  margin-right: 20px;
+}
+.star img {
+  width: 20px;
+}
+.tr-text h1 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
 
 @media (max-width: 991px){
   .main{
@@ -128,7 +158,7 @@ header{
       max-width: 40px;
   }
   .content .image img{
-      max-width: 100%;
+      max-width: 500px;
   }
   .content{
       flex-direction: column;
@@ -205,5 +235,35 @@ header{
   .toggle.active::after{
       transform: translateY(0px) rotate(-45deg);
       box-shadow: 0 0 0 #00704a;
+  }
+  .down {
+    padding: 10px;
+    display: flex;
+    height: 90.6vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .down-text h1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .line hr {
+    height: 25vh;
+    flex-direction: column;
+  }
+  .box {
+    display: flex;
+  }
+  .trimer img {
+    width: 80px;
+    margin-right: 10px;
+  }
+  .star img {
+    width: 20px;
+  }
+  .tr-text h1 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 50px;
   }
 }
