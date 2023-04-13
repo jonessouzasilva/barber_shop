@@ -246,7 +246,7 @@ header{
   .down {
     padding: 10px;
     display: flex;
-    height: 90.6vh;
+    height: 100.6vh;
     flex-direction: column;
     align-items: center;
   }
@@ -255,7 +255,7 @@ header{
     text-align: center;
   }
   .line hr {
-    height: 25vh;
+    height: 20vh;
     flex-direction: column;
   }
   .box {
