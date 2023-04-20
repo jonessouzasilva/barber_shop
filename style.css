@@ -49,6 +49,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  top: 30px;
 }
 .content .text{
   width: 100%;
@@ -169,6 +170,7 @@ header{
   .content{
       flex-direction: column;
       margin: 120px 0;
+      top: 160px;
   }
   .content .text{
       max-width: 100%;
